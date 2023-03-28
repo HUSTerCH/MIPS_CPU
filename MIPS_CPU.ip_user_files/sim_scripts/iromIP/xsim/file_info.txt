@@ -1,0 +1,2 @@
+iromIP.v,verilog,xil_defaultlib,../../../../MIPS_CPU.srcs/sources_1/ip/iromIP/sim/iromIP.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

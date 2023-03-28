@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="MIPS_CPU_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="MIPS_CPU_sim" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="101950001fs"></ZoomEndTime>
+      <Cursor1Time time="20000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="211"></NameColumnWidth>
+      <ValueColumnWidth column_width="158"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="21" />
+   <wvobject fp_name="/MIPS_CPU_sim/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_CPU_sim/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_CPU_sim/u0/PC" type="array">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_CPU_sim/u0/Instr" type="array">
+      <obj_property name="ElementShortName">Instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_CPU_sim/u0/unitDram/regs[3]" type="array">
+      <obj_property name="ElementShortName">[3][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_CPU_sim/u0/unitRegFile/regs[4]" type="array">
+      <obj_property name="ElementShortName">[4][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_CPU_sim/u0/unitDram/MemWR" type="logic">
+      <obj_property name="ElementShortName">MemWR</obj_property>
+      <obj_property name="ObjectShortName">MemWR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_CPU_sim/u0/unitMainCtrl/RtDst" type="logic">
+      <obj_property name="ElementShortName">RtDst</obj_property>
+      <obj_property name="ObjectShortName">RtDst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_CPU_sim/u0/unitRegFile/regs[5]" type="array">
+      <obj_property name="ElementShortName">[5][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_CPU_sim/u0/unitRegFile/RegWr" type="logic">
+      <obj_property name="ElementShortName">RegWr</obj_property>
+      <obj_property name="ObjectShortName">RegWr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_CPU_sim/u0/RegWA" type="array">
+      <obj_property name="ElementShortName">RegWA[4:0]</obj_property>
+      <obj_property name="ObjectShortName">RegWA[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_CPU_sim/u0/ALUSrc" type="logic">
+      <obj_property name="ElementShortName">ALUSrc</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_CPU_sim/u0/unitALUCtrl/ALUCtrl" type="array">
+      <obj_property name="ElementShortName">ALUCtrl[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUCtrl[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_CPU_sim/u0/unitALU/ALUResult" type="array">
+      <obj_property name="ElementShortName">ALUResult[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUResult[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_CPU_sim/u0/unitRegFile/WriteData" type="array">
+      <obj_property name="ElementShortName">WriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_CPU_sim/u0/unitRegFile/WriteAddr" type="array">
+      <obj_property name="ElementShortName">WriteAddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteAddr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_CPU_sim/u0/unitRegFile/RTData" type="array">
+      <obj_property name="ElementShortName">RTData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RTData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_CPU_sim/u0/unitRegFile/RSData" type="array">
+      <obj_property name="ElementShortName">RSData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RSData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_CPU_sim/u0/unitRegFile/WriteData" type="array">
+      <obj_property name="ElementShortName">WriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_CPU_sim/u0/unitRegFile/WriteAddr" type="array">
+      <obj_property name="ElementShortName">WriteAddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteAddr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_CPU_sim/u0/unitRegFile/regs[2]" type="array">
+      <obj_property name="ElementShortName">[2][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+   </wvobject>
+</wave_config>

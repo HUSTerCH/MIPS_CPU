@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../MIPS_CPU.srcs/sources_1/ip/iromIP/sim/iromIP.v" \
+"../../../../MIPS_CPU.srcs/sources_1/new/ALU.v" \
+"../../../../MIPS_CPU.srcs/sources_1/new/ALUCtrler.v" \
+"../../../../MIPS_CPU.srcs/sources_1/new/MIPS_CPU.v" \
+"../../../../MIPS_CPU.srcs/sources_1/new/MainCtrl.v" \
+"../../../../MIPS_CPU.srcs/sources_1/new/RegFile.v" \
+"../../../../MIPS_CPU.srcs/sources_1/new/dram.v" \
+"../../../../MIPS_CPU.srcs/sim_1/new/MIPS_CPU_sim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,16 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/vivado_project/MIPS_CPU/MIPS_CPU.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+D:/vivado_project/MIPS_CPU/MIPS_CPU.srcs/sim_1/new/ALUsim.v,1679907478,verilog,,,,ALUsim,,,,,,,,
+D:/vivado_project/MIPS_CPU/MIPS_CPU.srcs/sim_1/new/MIPS_CPU_sim.v,1679912616,verilog,,,,MIPS_CPU_sim,,,,,,,,
+D:/vivado_project/MIPS_CPU/MIPS_CPU.srcs/sim_1/new/RegFileSim.v,1679915774,verilog,,,,RegFileSim,,,,,,,,
+D:/vivado_project/MIPS_CPU/MIPS_CPU.srcs/sources_1/ip/iromIP/sim/iromIP.v,1679972620,verilog,,D:/vivado_project/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/ALU.v,,iromIP,,,,,,,,
+D:/vivado_project/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/ALU.v,1679915891,verilog,,D:/vivado_project/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/ALUCtrler.v,,ALU,,,,,,,,
+D:/vivado_project/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/ALUCtrler.v,1679916530,verilog,,D:/vivado_project/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/MIPS_CPU.v,,ALUCtrler,,,,,,,,
+D:/vivado_project/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/MIPS_CPU.v,1679933015,verilog,,D:/vivado_project/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/MainCtrl.v,,MIPS_CPU,,,,,,,,
+D:/vivado_project/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/MainCtrl.v,1679933551,verilog,,D:/vivado_project/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/RegFile.v,,MainCtrl,,,,,,,,
+D:/vivado_project/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/RegFile.v,1679926136,verilog,,D:/vivado_project/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/dram.v,,RegFile,,,,,,,,
+D:/vivado_project/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/dram.v,1679922834,verilog,,D:/vivado_project/MIPS_CPU/MIPS_CPU.srcs/sim_1/new/MIPS_CPU_sim.v,,dram,,,,,,,,
+D:/vivado_project/MIPS_CPU/MIPS_CPU.srcs/sources_1/new/irom.v,1679908251,verilog,,D:/vivado_project/MIPS_CPU/MIPS_CPU.srcs/sim_1/new/MIPS_CPU_sim.v,,irom,,,,,,,,
