@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: Luo Chang 
 // 
 // Create Date: 2023/03/27 15:11:53
 // Design Name: 
@@ -25,10 +25,12 @@ module RegFile(
     input [4:0] RTAddr,
     input [4:0] WriteAddr,
     input RegWr,
+
     input [31:0] WriteData,
     input CLK,
     input reset,
     output [31:0] RSData,
+
     output [31:0] RTData
     );
     reg [31:0] regs[0:31];

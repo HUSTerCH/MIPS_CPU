@@ -1,0 +1,6 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/vivado_project/MIPS_CPU/MIPS_CPU.sim/sim_1/synth/func/xsim/MIPS_CPU_sim_func_synth.v,1680016183,verilog,,D:/vivado_project/MIPS_CPU/MIPS_CPU.srcs/sim_1/new/MIPS_CPU_sim.v,,ALU;MIPS_CPU;RegFile;dram;glbl;iromIP;iromIP_blk_mem_gen_generic_cstr;iromIP_blk_mem_gen_prim_width;iromIP_blk_mem_gen_prim_wrapper_init;iromIP_blk_mem_gen_top;iromIP_blk_mem_gen_v8_4_2;iromIP_blk_mem_gen_v8_4_2_synth,,,,,,,,
+D:/vivado_project/MIPS_CPU/MIPS_CPU.srcs/sim_1/new/MIPS_CPU_sim.v,1679912616,verilog,,,,MIPS_CPU_sim,,,,,,,,

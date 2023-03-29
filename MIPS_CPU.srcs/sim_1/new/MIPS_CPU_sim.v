@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: Luo Chang 
 // 
 // Create Date: 2023/03/27 18:21:49
 // Design Name: 
@@ -36,7 +36,7 @@ module MIPS_CPU_sim(
     initial
         begin
             reset = 1;
-            #20
+            #15
             reset = 0;
         end
 endmodule

@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: Luo Chang 
 // 
 // Create Date: 2023/03/27 15:37:37
 // Design Name: 
@@ -34,7 +34,7 @@ module ALU(
                 4'b0110:
                     begin
                         ALUResult = inputA - inputB;
-                        zero = (ALUResult == 0)?1:0;
+                        zero = (ALUResult == 0) ? 1 : 0;
                     end
                 4'b0010:
                     begin
