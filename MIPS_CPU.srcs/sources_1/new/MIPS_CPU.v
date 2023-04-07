@@ -60,15 +60,15 @@ module MIPS_CPU(
     assign ImmL2 = {Imm32[29:0],2'b00};
     assign Imm32 = {Instr[15] ? 16'hffff : 16'h0 , Instr[15:0]};
     assign ALUIn2 = ALUSrc ? Imm32 : RTData;
-    assign RegWriteAddr = RegDst ? Instr[15:11] : Instr[20:16];
-    assign RegWriteData = Mem2Reg ? MemoryReadData : ALURes;
+    assign RegWriteAddr = J ? 5'b1_1111:RegDst ? Instr[15:11] : Instr[20:16];
+    assign RegWriteData = J ? PC + 4 : Mem2Reg ? MemoryReadData : ALURes;
 
     ALU unitALU(RSData,ALUIn2,ALUCtrl,ALURes,Zero);
     dram unitDram(CLK,ALURes[6:2],MemoryReadData,RTData,MemWR);
     // irom unitIrom(PC[6:2],Instr);
     // dramIP unitDram(~CLK,MemWR,ALURes[6:2],RTData,MemoryReadData);
     // read machine code at CLK's posedge
-    iromIP unitIrom(CLK,PC[6:2],Instr);
+    zwd_iromIP unitIrom(CLK,PC[6:2],Instr);
     RegFile unitRegFile(Instr[25:21],Instr[20:16],RegWriteAddr,RegWr, RegWriteData,CLK,reset,RSData, RTData);
     MainCtrl unitMainCtrl(Instr[31:26],ALUop,RegDst,RegWr,ALUSrc,MemWR,B,J,Mem2Reg);
     ALUCtrler unitALUCtrl(ALUop,(ALUSrc && Instr[31:26] == 6'b00_1101 ? 6'bxx_0101:Instr[5:0]),ALUCtrl);
@@ -77,6 +77,8 @@ module MIPS_CPU(
             // PC initial value set to zero
             if (reset) PC <= 0;
             // change program pointer at CLK's negedge
+            else if (Instr[25:21] == 5'b1_1111)
+                PC <= RSData;
             else PC <= TempPC;
         end
 endmodule

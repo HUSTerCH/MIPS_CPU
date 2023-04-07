@@ -52,6 +52,8 @@ module MainCtrl(
             // immediate num op
             6'b00_1000:outputTemp = 9'b01x1_000_00;
             6'b00_1101:outputTemp = 9'b0101_000_10;
+            // jal
+            6'b00_0011:outputTemp = 9'bxxx1_001_xx;
             default: outputTemp = 9'b0000_000_00;
         endcase
     end
